@@ -14,7 +14,7 @@ namespace Regex_Examples
             //class Regex Repesents an immutable regular expression.  
 
             string[] str = { "anmol@gmail.com", "anm@", "teest@gmail.com", "test@gmail.com" };
-            //Input strings for Match valid mobile number.  
+            //Input strings for Match valid email.  
             foreach (string s in str)
             {
                 Console.WriteLine("{0} {1} a valid gmail.", s,
