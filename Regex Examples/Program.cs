@@ -13,7 +13,7 @@ namespace Regex_Examples
             Regex r = new Regex(@"^\+?\d{0,2}\-?\d{4,5}\-?\d{5,6}");
             //class Regex Repesents an immutable regular expression.  
 
-            string[] str = { "+91-9678967101", "9767101", "+91-9678-967101", "+91-96789-67101", "+919678967101" };
+            string[] str = { "+91-978967101", "9767101", "+91-9678-967101", "+91-96789-67101", "+919678967101" };
             //Input strings for Match valid mobile number.  
             foreach (string s in str)
             {
