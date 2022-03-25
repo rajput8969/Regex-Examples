@@ -14,7 +14,7 @@ namespace Regex_Examples
             //class Regex Repesents an immutable regular expression.  
 
             string[] str = { "132103", "9767101", "732103", "067101", "8967101" };
-            //Input strings for Match valid mobile number.  
+            //Input strings for Match valid pin-code number.  
             foreach (string s in str)
             {
                 Console.WriteLine("{0} {1} a valid pin-code number.", s,
